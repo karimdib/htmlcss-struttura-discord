@@ -1,3 +1,7 @@
+
+/*
+GENERALI inizio
+*/
 *{
     margin: 0;
     padding: 0;
@@ -9,23 +13,6 @@
     margin: 0 auto;
 }
 
-.bg-head{
-    background-color: #daa520;
-    display: flex;
-    justify-content: space-between;
-}
-
-.col-logo{
-    flex-basis: calc(100% / 12 * 3);
-}
-.col-link{
-    flex-basis: calc(100% / 12 * 3);
-}
-.col-log{
-    flex-basis: calc(100% / 12 * 3);
-    
-}
-
 
 .row{
     display:flex ;
@@ -33,128 +20,12 @@
     
 }
 
-/**/
-
-.first-section{
-    background-color:#00208b ;
-}
-
-.row{
-    
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
-.col-1 {
-    flex-basis: calc(100% / 12 * 10);
-    background-color: #ee82ee;
-    padding: 20px;
-    min-height: 300px;
-}
-
-/**/
-
-
-
-.col-2{
-    background-color: #1f90ff;
-    padding: 20px;
-    flex-basis: calc(100% / 12 * 8);
-    min-height: 300px;
-    
-}
-
-.col-3{
-    background-color: #ffc0cb;
-    padding: 20px;
-    flex-basis: calc(100% /12 * 4);
-    min-height: 300px;
-}
-
-/**/
-.thirth-section{
-    background-color: #d3d3d3;
-}
-
-
-
-.col-4{
-    background-color: #ffc0cb;
-    padding: 20px;
-    flex-basis: calc(100% / 12 * 8);
-    min-height: 300px;
-}
-
-.col-5{
-    background-color: #1f90ff;
-    padding: 20px;
-    flex-basis: calc(100% / 12 * 4);
-    min-height: 300px;
-}
-
-/**/
-
-
-.col-6{
-    background-color: #228b22;
-    padding: 20px;
-    flex-basis: calc( 100% /12 * 12);
-    min-height: 800px;
-}
-
-/**/
-
-
-
-.five-section{
-    background-color: #22272a;
-    
-    
-}
-
-.col-7{
-    flex-basis: calc(100%  / 12 * 4 );    
-    background-color: #ef8080;
-    min-height: 600px;
-}
-
-.col-8{
-    flex-basis: calc(100% / 12 * 2);
-    min-height: 600px;
-    background-color: #21b2aa;
-    border-style: dotted;
-}
-
-/*footer-inizio*/
-
-
-.footer-content{
-    background-color: #22272a;
-    padding: 5px;
-    min-height: 30px;
-    
-}
-
-.row-footer {
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    background-color: #80fed4
-}
-
-.bottoni{
-    
-    background-color: #ef8080;
-    border-style: dotted;
-}
-
 /*
-footer fine
+GENERALI fine
 */
 
 /*
-header
+header inizio
 */
 
 .nav {
@@ -170,3 +41,157 @@ header
     justify-content: space-between;
     padding: 10px;
 }
+
+.col-logo{
+    flex-basis: calc(100% / 12 * 3);
+    
+}
+.col-link{
+    flex-basis: calc(100% / 12 * 6);
+    
+   
+}
+.col-log{
+    flex-basis: calc(100% / 12 * 3);
+    
+    
+}
+/*
+header fine 
+*/
+
+
+/*prima sezione inizio*/
+
+.first-section{
+    background-color:#00208b ;
+}
+
+.row{    
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.col-1 {
+    flex-basis: calc(100% / 12 * 10);    
+    padding: 20px;
+    min-height: 300px;
+}
+
+.violet{
+    background-color: #ee82ee;
+}
+
+/*prima sezione fine*/
+
+/*seconda sezione inizio*/
+
+.col-2{    
+    padding: 20px;
+    flex-basis: calc(100% / 12 * 8);
+    min-height: 300px;    
+}
+
+.azzurro{
+    background-color: #1f90ff
+}
+
+.col-3{    
+    padding: 20px;
+    flex-basis: calc(100% /12 * 4);
+    min-height: 300px;
+}
+
+.rosa{
+    background-color:  #ffc0cb;;
+}
+
+/*fine seconda sezione */
+
+/*inizio terza sezione */
+
+.thirth-section{
+    background-color: #d3d3d3;
+}
+
+.col-4{    
+    padding: 20px;
+    flex-basis: calc(100% / 12 * 8);
+    min-height: 300px;
+}
+
+.col-5{   
+    padding: 20px;
+    flex-basis: calc(100% / 12 * 4);
+    min-height: 300px;
+}
+
+/*fine terza sezione */
+
+/*inzio quarta  sezione */
+
+.col-6{    
+    padding: 20px;
+    flex-basis: calc( 100% /12 * 12);
+    min-height: 800px;
+}
+
+.verde{
+    background-color: #228b22;;
+}
+
+/*fine quarta sezione */
+
+/*inizio quinta sezione */
+
+.five-section{
+    background-color: #22272a;
+        
+}
+
+.col-7{
+    flex-basis: calc(100%  / 12 * 4 );        
+    min-height: 600px;
+}
+
+.rosso{
+    background-color: #ef8080;
+}
+
+
+.col-8{
+    flex-basis: calc(100% / 12 * 2);
+    min-height: 600px;    
+    border-style: dotted;
+}
+
+.verde-chiaro{
+    background-color: #21b2aa;
+}
+/*fine quinta sezione */
+
+/*footer-inizio*/
+.footer-content{
+    background-color: #22272a;
+    padding: 5px;
+    min-height: 30px;
+    
+}
+
+.row-footer {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #80fed4
+}
+
+.bottoni{    
+    background-color: #ef8080;
+    border-style: dotted;
+}
+/*
+footer fine
+*/
+
+
